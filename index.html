@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>ontheblock</title>
+    <!--The following code is for the OTB favicon
+    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon.io-20230516T085220Z-001/Favicon.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon.io-20230516T085220Z-001/Favicon.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon.io-20230516T085220Z-001/Favicon.io/favicon-16x16.png">
+    <link rel="manifest" href="./Favicon.io-20230516T085220Z-001/Favicon.io/site.webmanifest">
+    -->
+    <!--The following code is for the house emoji favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon_io_house_emoji-20230516T090619Z-001/Favicon_io_house_emoji/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon_io_house_emoji-20230516T090619Z-001/Favicon_io_house_emoji/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon_io_house_emoji-20230516T090619Z-001/Favicon_io_house_emoji/favicon-16x16.png">
+    <link rel="manifest" href="./Favicon_io_house_emoji-20230516T090619Z-001/Favicon_io_house_emoji/site.webmanifest">
+  </head>
+
+  <body>
+    <div id="topHeader">
+      <div>
+          <a href="">
+            <img src="./images/OTB Logos/still_image_blade_24.jpg" onmouseover="hover(this);" onmouseout="unhover(this);">
+          </a>
+          <button>About Us</button>
+          <button>Marketplace</button>
+          <button>Contact Us</button>
+      </div>
+      <div>
+          <button>Login with XUMM</button>
+      </div>
+    </div>
+    <div id="beg">
+
+    </div>
+    <div id="mid">
+
+    </div>
+    <div id="end">
+
+    </div>
+    <div id="bottomHeader">
+      <div>
+        <p>Download the OnTheBlock app here:</p>
+        <a href="">
+          <img id="android" src="./images/App Stores/google-play-badge.png">
+        </a>
+        <a href="">
+          <img id="apple" src="./images/App Stores/Download_on_the_App_Store_Badge_US-UK_blk_092917.png">
+        </a>
+      </div>
+      <div>
+        <p>Stay up to date:</p>
+        <a href="">
+          <img id="twitter" src="./images/Socials/2021 Twitter logo - white.png">
+        </a>
+        <a href="">
+          <img id="facebook" src="./images/Socials/f_logo_RGB-White_1024.png">
+        </a>
+        <a href="">
+          <img id="instagram" src="./images/Socials/Instagram_Glyph_White.png">
+        </a>
+        <a href="">
+          <img id="medium" src="./images/Socials/Medium-Symbol-White-RGB@1x.png">
+        </a>
+      </div>
+      <div id="closeButton">
+        <a onclick="removeBottomHeader()">x</a>
+      </div>
+    </div>
+    <script>
+        function removeBottomHeader() {
+         document.getElementById("bottomHeader").style.position="relative";
+         document.getElementById("closeButton").style.display="none"; 
+        }
+        function refreshPage() {
+            window.location.reload();
+        }
+        function hover(element) {
+          element.setAttribute('src', './images/OTB Logos/24.gif');
+        }
+        function unhover(element) {
+          element.setAttribute('src', './images/OTB Logos/still_image_blade_24.jpg');
+        }
+    </script>
+  </body>
+</html>

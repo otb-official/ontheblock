@@ -1,0 +1,100 @@
+* {
+    background-color: rgb(32, 181, 240);
+    margin: 0px;
+    color: white;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    background: transparent;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 105, 248);
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px rgb(255, 255, 255);
+    box-shadow: none;
+    transition: all 0.1s ease-in-out;
+}
+
+div {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: blue;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#topHeader, #bottomHeader {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+#topHeader {
+    top: 0;
+}
+
+#bottomHeader {
+    display: flex;
+    bottom: 0;
+    height: fit-content;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+
+#beg, #mid, #end {
+    height: 1000px;
+    background-color: rgb(32, 181, 240);
+    border: solid 1px black;
+}
+
+#apple, #android {
+    width: 100px;
+    height: auto;
+}
+
+a, p {
+    background: transparent;
+}
+
+#closeButton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin-right: 2%;
+    margin-top: 0%;
+    width: 20px;
+    height: auto;
+    border-radius: 50%;
+    justify-content: center;
+    transition: all 0.1s ease-in-out;
+}
+
+#closeButton:hover {
+    background-color: #ffffff3a;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: solid 2px rgb(38, 105, 248);
+}
+
+#twitter, #facebook, #instagram, #medium {
+    width: 25px;
+    height: auto;
+}
