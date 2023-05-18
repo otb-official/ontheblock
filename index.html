@@ -16,21 +16,28 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./Favicon_io_house_emoji-20230516T090619Z-001/Favicon_io_house_emoji/favicon-16x16.png">
     <link rel="manifest" href="./Favicon_io_house_emoji-20230516T090619Z-001/Favicon_io_house_emoji/site.webmanifest">
   </head>
-
+  <!--
   <body>
     <div id="topHeader">
-      <div>
-          <a href="">
+      <div id="pageLinks">
+          <a id="logoOTB" href="./index.html">
             <img src="./images/OTB Logos/still_image_blade_24.jpg" onmouseover="hover(this);" onmouseout="unhover(this);">
           </a>
-          <button>About Us</button>
-          <button>Marketplace</button>
-          <button>Contact Us</button>
+          <a id="aboutSection" href="about.html">
+            <button>About Us</button>
+          </a>
+          <a id="marketplacePage" href="marketplace.html">
+            <button>Marketplace</button>
+          </a>
+          <a id="contactInfo" href="contact.html">
+            <button>Contact Us</button>
+          </a>
       </div>
-      <div>
+      <div id="xummLogin">
           <button>Login with XUMM</button>
       </div>
     </div>
+
     <div id="beg">
 
     </div>
@@ -41,48 +48,35 @@
 
     </div>
     <div id="bottomHeader">
-      <div>
+      <div id="appDownloads">
         <p>Download the OnTheBlock app here:</p>
-        <a href="">
+        <a id="andy" href="">
           <img id="android" src="./images/App Stores/google-play-badge.png">
         </a>
-        <a href="">
+        <a id="appy" href="">
           <img id="apple" src="./images/App Stores/Download_on_the_App_Store_Badge_US-UK_blk_092917.png">
         </a>
       </div>
-      <div>
+      <div id="socials">
         <p>Stay up to date:</p>
-        <a href="">
+        <a id="twitty" href="https://twitter.com/OnTheBlockOTB" target="_blank">
           <img id="twitter" src="./images/Socials/2021 Twitter logo - white.png">
         </a>
-        <a href="">
+        <a id="booky" href="https://www.facebook.com/ontheblockOTB" target="_blank">
           <img id="facebook" src="./images/Socials/f_logo_RGB-White_1024.png">
         </a>
-        <a href="">
+        <a id="grammy" href="https://www.instagram.com/otbrealestate" target="_blank">
           <img id="instagram" src="./images/Socials/Instagram_Glyph_White.png">
         </a>
-        <a href="">
+        <a id="meddy" href="https://medium.com/@ontheblock" target="_blank">
           <img id="medium" src="./images/Socials/Medium-Symbol-White-RGB@1x.png">
         </a>
       </div>
       <div id="closeButton">
-        <a onclick="removeBottomHeader()">x</a>
+        <a id="x" onclick="removeBottomHeader()">x</a>
       </div>
     </div>
-    <script>
-        function removeBottomHeader() {
-         document.getElementById("bottomHeader").style.position="relative";
-         document.getElementById("closeButton").style.display="none"; 
-        }
-        function refreshPage() {
-            window.location.reload();
-        }
-        function hover(element) {
-          element.setAttribute('src', './images/OTB Logos/24.gif');
-        }
-        function unhover(element) {
-          element.setAttribute('src', './images/OTB Logos/still_image_blade_24.jpg');
-        }
-    </script>
+  -->
   </body>
+  <script src="./ontheblock.js"></script>
 </html>
